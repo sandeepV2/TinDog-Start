@@ -18,7 +18,7 @@ h1 {
 
 
 .container-fluid {
-    padding : 3% 15%;
+    padding : 3% 15% 7%;
 }
 
 
@@ -40,6 +40,8 @@ h1 {
 .title-image {
     width : 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Feature section */
@@ -53,7 +55,9 @@ p {
 }
 
 #features {
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-box {
@@ -117,4 +121,36 @@ h2 {
 .pricing-col {
     padding: 3% 2%;
     text-align: center;
+}
+
+/* Section - Call to action */
+#cta {
+    background-color: #ff4c68 ;
+    text-align: center;
+}
+
+.cta-text {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color:#fff;
+    margin : 4px;
+    padding: 2%;
+}
+
+#footer {
+    text-align: center;
+    margin:3% 2%;
+}
+/* Making it responsive using media breakpoint 
+   Without bootstrap */
+@media (max-width: 1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+}
+
 }
