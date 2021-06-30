@@ -4,12 +4,12 @@
 }
 
 body {
-    
+
     font-family: 'Montserrat-black', sans-serif;
 }
 
 h1 {
-    
+
     font-family: 'Montserrat-black', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
@@ -18,16 +18,16 @@ h1 {
 
 
 .container-fluid {
-    padding : 3% 15% 7%;
+    padding: 3% 15% 7%;
 }
 
 
 
-.navbar{
-    padding-bottom :4.5rem;
+.navbar {
+    padding-bottom: 4.5rem;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: "ubuntu";
     font-size: 2rem;
     font-weight: bold;
@@ -38,7 +38,7 @@ h1 {
 }
 
 .title-image {
-    width : 60%;
+    width: 60%;
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
@@ -69,12 +69,14 @@ h3 {
     font-family: 'Montserrat-bold', sans-serif;
     font-size: 1.5rem;
 }
+
 .icon {
-    color : #ef8172;
-    margin : 1rem;
+    color: #ef8172;
+    margin: 1rem;
 }
+
 .icon:hover {
-    color : #ff4c68;   
+    color: #ff4c68;
 }
 
 /* testimonials section */
@@ -82,7 +84,7 @@ h3 {
 #testimonials {
     text-align: center;
     background-color: #ef8172;
-    color : #ffff; 
+    color: #ffff;
 }
 
 h2 {
@@ -99,23 +101,23 @@ h2 {
 
 /* press section */
 #press {
-    background-color: #ef8172 ;
+    background-color: #ef8172;
     text-align: center;
     padding: 3%;
 }
 
 .press-image {
     width: 15%;
-    margin : 20px 20px 50px;
+    margin: 20px 20px 50px;
 }
 
 .carousel-item {
-    padding : 7% 15%;
+    padding: 7% 15%;
 }
 
 /* Pricing section */
 #pricing {
-    padding : 100px;
+    padding: 100px;
 }
 
 .pricing-col {
@@ -125,7 +127,7 @@ h2 {
 
 /* Section - Call to action */
 #cta {
-    background-color: #ff4c68 ;
+    background-color: #ff4c68;
     text-align: center;
 }
 
@@ -133,24 +135,30 @@ h2 {
     font-family: 'Montserrat-bold', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
-    color:#fff;
-    margin : 4px;
+    color: #fff;
+    margin: 4px;
     padding: 2%;
 }
 
 #footer {
     text-align: center;
-    margin:3% 2%;
+    margin: 3% 2%;
 }
+
+.social-icons{
+    margin:20px 10px;
+}
+
 /* Making it responsive using media breakpoint 
    Without bootstrap */
-@media (max-width: 1028px){
+@media (max-width: 1028px) {
     #title {
         text-align: center;
     }
-    .title-image{
-        position:static;
+
+    .title-image {
+        position: static;
         transform: rotate(0);
-}
+    }
 
 }
